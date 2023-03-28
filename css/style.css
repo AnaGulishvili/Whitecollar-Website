@@ -1,0 +1,38 @@
+/*header styles*/
+
+.header-wrapper {
+    width: 1220px;
+    height: 65px;
+    display: flex;
+    position: fixed;
+    left: 350px;
+    top: 53px;
+    align-items: center;
+    
+}
+.nav-container {
+    display: flex;
+    width: 601px;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+.button-wrapper {
+    position: absolute;
+    right: 0px;
+    padding: 21px 35px;
+    background-color: #6B77E5;
+}
+.button-text {
+    font-family: 'Cabin';
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.mainlogo {
+    Width: 200px;
+    Height:38px;
+    margin-right: 195px;
+}
+    
