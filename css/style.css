@@ -2,7 +2,7 @@
 
 .header-wrapper {
     width: 1220px;
-    height: 65px;
+    Height:65px;
     display: flex;
     position: fixed;
     margin: 0 auto;
@@ -11,6 +11,7 @@
     top: 53px;
     align-items: center;
     background: #FFFFFF;
+    z-index: 200;
     
 }
 .nav-container {
@@ -20,10 +21,12 @@
     font-family: 'Inter';
     font-size: 18px;
 }
+
 .button-wrapper {
     position: absolute;
     right: 0px;
-    padding: 21px 35px;
+    bottom: 0px;
+    padding: 22px 35px;
     background-color: #6B77E5;
 }
 .button-text {
@@ -32,11 +35,13 @@
     text-align: center;
     text-transform: capitalize;
     color: #FFFFFF;
+    line-height: 21.87px;
 }
 .mainlogo {
     Width: 200px;
     Height:38px;
     margin-right: 195px;
+    display: block;
 }
 
 /* process section*/
@@ -132,7 +137,7 @@
     background: red;
     margin: 0 auto;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 155px;
 }
 .video-image {
     width: 100%;
@@ -189,8 +194,76 @@
     position: absolute;
     left: 23.21px;
     top: 17.11px;
-
 }
+/*styling Team section*/
+.team-section-container {
+    Width: 1220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 131px;
+    
+}
+.team-p1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #37393F;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.team-h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #37393F;
+    text-align: center;
+    margin-bottom: 31px;
+}
+.photos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 31px;
+    position: relative;
+}
+
+.photo-text-container {
+    background :#fff;
+    position: absolute;
+    top: 395px;
+    left: 23px;
+    padding: 24px 69px;
+    z-index: 200;
+}
+.name-p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #37393F;
+    text-align: center;
+    margin-bottom: 4px;
+    line-height: 38px;
+}
+.position-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7D7D7D;
+    text-align: center;
+    line-height: 135.19%;
+}
+.image {
+    display: block;
+}
+
+
+
 
 
 
