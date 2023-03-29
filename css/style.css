@@ -1,5 +1,13 @@
 /*header styles*/
-
+.header-container {
+    width: 100%;
+    height: 118px;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 300;
+}
 .header-wrapper {
     width: 1220px;
     Height:65px;
@@ -21,7 +29,10 @@
     font-family: 'Inter';
     font-size: 18px;
 }
-
+.fa-chevron-down {
+    font-size: 14px;
+    margin-left: 5px;
+}
 .button-wrapper {
     position: absolute;
     right: 0px;
@@ -228,6 +239,8 @@
     flex-direction: row;
     justify-content:space-between;
     gap: 31px;
+}
+.text-position {
     position: relative;
 }
 
@@ -237,7 +250,7 @@
     top: 395px;
     left: 23px;
     padding: 24px 69px;
-    z-index: 200;
+    z-index: 500;
 }
 .name-p {
     font-family: 'Poppins';
