@@ -12,7 +12,7 @@
     width: 1220px;
     Height:65px;
     display: flex;
-    position: fixed;
+    position: relative;
     margin: 0 auto;
     left: 0;
     right: 0;
